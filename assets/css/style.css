@@ -20,6 +20,26 @@ div {
 	background: #ffffff;
 }
 
+/* LINKS */
+
+a:link {
+	text-decoration: none;
+	color: #cccccc;
+}
+
+a:hover {
+	color: #666666;
+	font-weight: bold;
+}
+
+a:active {
+	color: #333333;
+}
+
+a:visited {
+	color: #666666;
+}
+
 .container {
 	width: 960px;
 	margin: 0 auto;
@@ -170,6 +190,18 @@ input {
 	font-weight: normal;
 }
 
+#p1 a:hover,
+#p2 a:hover,
+#p3 a:hover,
+#p4 a:hover,
+#p5 a:hover {
+	text-decoration: none;
+	color: #666666;
+	font-weight: normal;
+}
+
+
+
 #p1 {
 	background-image: url("../images/300x300.png");
 }
@@ -189,6 +221,7 @@ input {
 #p5 {
 	background-image: url("../images/300x300.png");
 }
+
 
 /* FOOTER */
 
