@@ -10,14 +10,28 @@ h1, h2, h3, h4 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	padding: 10px 0;
 	margin: 0;
+	font-weight: bold;
 }
 
 h2, h3 {
 	color: #4aaaa5;
 }
 
-div {
-	background: #ffffff;
+h1 {
+	font-size: 28px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+p {
+	margin-top: 0;
+	padding-top: 0;
 }
 
 /* LINKS */
@@ -42,6 +56,7 @@ a:visited {
 
 .container {
 	width: 960px;
+	height: 1020px;
 	margin: 0 auto;
 }
 
@@ -49,11 +64,14 @@ a:visited {
 #connect {
 	float: left;
 }
+
+/* HEADING & NAVBAR */
+
 #header {
 	background: #ffffff;
 	border-bottom: 2px solid #cccccc;
 	display: inline-flex;
-	width: 960px;
+	width: 100%;
 	padding: 0 100px; 
 }
 
@@ -68,7 +86,8 @@ a:visited {
 #navbar {
 	background: #ffffff;
 	float: right;
-	padding-left: 350px;
+	padding-left: 360px;
+	padding-top: 15px;
 }
 
 #navbar li {
@@ -79,6 +98,9 @@ a:visited {
 	margin: 0;
 	padding: 0 10px;
 }
+
+/* CONTENT */
+
 
 .border {
 	border-left: 1px solid #dddddd;
@@ -108,30 +130,38 @@ a:visited {
 }
 
 #content {
+	background: #ffffff;
 	border: 1px solid #dddddd;
 	line-height: 150%;
-	margin: 50px;
+	margin: 50px 0 0 0;
 	width: 650px;
 	overflow: auto;
+	padding-right: 0px;
 }
 
 #connect {
 	border: 1px solid #dddddd;
+	background: #ffffff;
 	display: inline;
 	margin: 50px;
 	width: 270px;
-	clear:left;
+	clear: none;
 }
 
 #about,
 #connectsect {
-	float: left;
+	float: right;
+	margin: 0 5px 5px 5px;
+}
+
+#connectsect {
+	width: 270px;
 }
 
 .social {
 	width: 20%;
 	float: left;
-	padding-left: 25px;
+	padding: 0 0 25px 25px;
 	display: inline;
 }
 
@@ -142,7 +172,7 @@ input {
 	color: #cccccc;
 	width: 100%;
 	line-height: 180%;
-	
+
 }
 
 
