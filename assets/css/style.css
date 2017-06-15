@@ -1,4 +1,6 @@
-
+/* I chose to keep all additional colors grey so the theme 
+would look cleaner as I did not like the colors populated on 
+Adobe Kuler with this theme */
 
 body {
 	background-image: url("../images/nice_snow.png");
@@ -72,7 +74,7 @@ a:visited {
 	border-bottom: 2px solid #cccccc;
 	display: inline-flex;
 	width: 100%;
-	padding: 0 100px; 
+	padding: 0 150px; 
 }
 
 #name {
@@ -86,7 +88,7 @@ a:visited {
 #navbar {
 	background: #ffffff;
 	float: right;
-	padding-left: 360px;
+	padding-left: 400px;
 	padding-top: 25px;
 }
 
@@ -98,6 +100,14 @@ a:visited {
 	margin: 0;
 	padding: 0 10px;
 }
+
+#heading a,
+#heading a:visited,
+#heading a:hover,
+#heading a:link {
+	color: #ffffff;
+}
+
 
 /* CONTENT */
 
@@ -165,10 +175,10 @@ a:visited {
 	display: inline;
 }
 
-
 /* CONTACT PAGE */
 
 input {
+	font-size: 12px;
 	color: #cccccc;
 	width: 100%;
 	line-height: 180%;
@@ -198,6 +208,7 @@ input {
 	background-color: #4aaaa5;
 	margin-top: 70%;
 	padding:5% 0;
+	opacity: 0.6;
 }	
 
 .pics {
@@ -222,23 +233,23 @@ input {
 
 
 #p1 {
-	background-image: url("../images/300x300.png");
+	background-image: url("../images/200x200.png");
 }
 
 #p2 {
-	background-image: url("../images/300x300.png");
+	background-image: url("../images/200x200.png");
 }
 
 #p3 {
-	background-image: url("../images/300x300.png");
+	background-image: url("../images/200x200.png");
 }
 
 #p4 {
-	background-image: url("../images/300x300.png");
+	background-image: url("../images/200x200.png");
 }
 
 #p5 {
-	background-image: url("../images/300x300.png");
+	background-image: url("../images/200x200.png");
 }
 
 
